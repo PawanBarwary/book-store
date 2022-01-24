@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+}
+
+form {
+  padding: 2em;
+  width: 20vh;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+label {
+  display: flex;
+  gap: 1em;
+  justify-content: flex-end;
+}
+

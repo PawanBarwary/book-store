@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Your Own Book Log</h1>
+  <form>
+    <label>Book
+      <input type="text" id="book" placeholder="The Stranger">
+    </label>
+    <label>Author
+      <input type="text" id="author" placeholder="Albert Camus">  
+    </label>
+    <label>Pages
+      <input type="number" id="pages" placeholder=159 >
+    </label>
+    <label id="read">Read
+      <input type="radio" id="yes" name="read">
+      <option value="Yes">Yes</option>
+      <input type="radio" id="no" name="read">
+      <option value="No">Not yet</option>
+    </label>
+    <input type="submit"></input>
+  </form>
+  <div class="display-area">
+  </div>
+</body>
+</html>
